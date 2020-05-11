@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadiAPI", "CadiAPI\CadiAPI.csproj", "{AE2EA6DD-EB1C-4732-BADE-AF18E87B934F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE2EA6DD-EB1C-4732-BADE-AF18E87B934F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2EA6DD-EB1C-4732-BADE-AF18E87B934F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2EA6DD-EB1C-4732-BADE-AF18E87B934F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2EA6DD-EB1C-4732-BADE-AF18E87B934F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AEA5FE3-35D6-4EEB-BDE1-43C7F812B605}
+	EndGlobalSection
+EndGlobal
