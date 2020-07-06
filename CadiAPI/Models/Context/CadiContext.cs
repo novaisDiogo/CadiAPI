@@ -29,6 +29,8 @@ namespace CadiAPI.Models.Context
         public DbSet<Cashier> Cashiers { get; set; }
         public DbSet<CashierOrder> CashierOrders { get; set; }
         public DbSet<Table> Tables { get; set; }
+        public DbSet<KeyCadi> KeyCadis { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

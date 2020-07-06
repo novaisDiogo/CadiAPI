@@ -4,14 +4,16 @@ using CadiAPI.Models.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CadiAPI.Migrations
 {
     [DbContext(typeof(CadiContext))]
-    partial class CadiContextModelSnapshot : ModelSnapshot
+    [Migration("20200615234452_New Tables - KeyCadi, Rating")]
+    partial class NewTablesKeyCadiRating
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
